@@ -22,7 +22,7 @@ const TodoItem = () => {
   }, [firebase, firebase.isLoggedIn, setTodos]);
 
   const handleDeleteTodo = (id) => {
-    console.log("handleDeleteTodo: id =", id); // Log the id
+    console.log("handleDeleteTodo: id =",id);
     firebase.deleteTodo(id);
 }
   

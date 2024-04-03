@@ -1,7 +1,6 @@
 import Form from "react-bootstrap/Form";
 import React from 'react';
 import { useState , useEffect} from 'react'
-import Image from "../assets/images/2.png";
 import { useFirebase, } from '../context/Firebase'
 import { Routes, Link, useNavigate } from 'react-router-dom';
 import { Button, Col, Row } from 'react-bootstrap';
@@ -72,10 +71,6 @@ const firebase = useFirebase();
         </Form>
       </Col>
 
-      <Col md={6} sm={12} className="text-center item-center d-none d-md-block">
-        {/* You can replace 'Image' with your actual image source */}
-        <img src={Image} alt="Your Application" className="img-fluid" />
-      </Col>
     </Row>
   </div>
   );
