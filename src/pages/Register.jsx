@@ -4,7 +4,7 @@ import { useState , useEffect} from 'react'
 import { useFirebase, } from '../context/Firebase'
 import { Routes, Link, useNavigate } from 'react-router-dom';
 import { Button, Col, Row } from 'react-bootstrap';
-import 'firebase/auth'; 
+import 'firebase/auth';
 
 const RegisterPage = () => {
 
